@@ -1,0 +1,19 @@
+{
+  "name": "wim11-test",
+  "version": "1.0.0",
+  "repository": "git@github.com:jeremlb/wim11-test.git",
+  "author": "Jérémi Le Bourhis <jeremi.leb@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "ts-node src/main.ts"
+  },
+  "dependencies": {
+    "@types/node": "^12.12.21",
+    "html-validator": "^5.0.0",
+    "pixelmatch": "^5.1.0",
+    "puppeteer": "^2.0.0",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.4"
+  }
+}
